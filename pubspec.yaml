@@ -1,0 +1,31 @@
+name: lines_of_code
+description: Quantize your work through LOC with ease
+version: 0.0.1
+homepage: https://github.com/Moasfar-Javed/undo_redo
+repository: https://github.com/Moasfar-Javed/undo_redo
+
+environment:
+  sdk: ^3.4.4
+
+# Add regular dependencies here.
+dependencies:
+  args: ^2.4.2
+  dart_console: ^4.1.1
+
+dev_dependencies:
+  lints: ^3.0.0
+  test: ^1.24.0
+
+topics:
+  - cli
+  - lines-of-code
+  - loc
+  - console
+
+platforms:
+  android:
+  ios:
+  web:
+  windows:
+  linux:
+  macos:
