@@ -148,7 +148,7 @@ Future<Map<String, dynamic>> _countLines(Directory directory,
         totalFilesChecked++;
         if (verbose) {
           console.write(
-              '✅ Checked file [$totalFilesChecked] -> ${directory.path}\n');
+              '✅ Checked file [$totalFilesChecked] -> ${entity.path.replaceFirst(directory.path, "...")}\n');
         }
       } catch (e) {
         print('Error reading file ${entity.path}: $e');
