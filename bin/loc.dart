@@ -37,8 +37,7 @@ ArgParser buildParser() {
 
 void printUsage(ArgParser argParser, Console console) {
   console.setForegroundColor(ConsoleColor.cyan);
-  console.writeLine(
-      'Usage: dart loc_counter.dart [flags] <directory> <extensions>');
+  console.writeLine('Usage: loc [flags] <directory> <extensions>');
   console.writeLine(argParser.usage);
   console.resetColorAttributes();
 }
